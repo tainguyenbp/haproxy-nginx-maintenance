@@ -1,0 +1,33 @@
+version: '3'
+services:
+  nginx_mode_maintenance1:
+    build:
+      context: .
+    image: nginx-maintenance/tainguyenbp
+    container_name: nginx_mode_maintenance1
+    ports:
+      - 8086:8081
+
+  nginx_mode_maintenance2:
+    build:
+      context: .
+    image: nginx-maintenance/tainguyenbp
+    container_name: nginx_mode_maintenance2
+    ports:
+      - 8087:8081
+
+  nginx_mode_maintenance3:
+    build:
+      context: .
+    image: nginx-maintenance/tainguyenbp
+    container_name: nginx_mode_maintenance3
+    ports:
+      - 8088:8081
+
+  nginx_mode_maintenance4:
+    build:
+      context: .
+    image: nginx-maintenance/tainguyenbp
+    container_name: nginx_mode_maintenance4
+    ports:
+      - 8089:8081
