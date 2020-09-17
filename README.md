@@ -6,7 +6,7 @@
 * Access website maintenance with url:<br>
 > http://localhost:8181 or http://IP:8181/<br>
 * Access website admin haproxy with url:<br>
-> http://localhost:8084/stats or http://IP:8181/stats<br>
+> http://localhost:8404/stats or http://IP:8404/stats<br>
 > username: admin
 > password: admin
 * Test request with script request_while.sh<br>
